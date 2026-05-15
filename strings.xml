@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_title">⚡ GRAMA-URJA</string>
+    <string name="app_subtitle">Community Power Monitor</string>
+    <string name="label_full_name">Full Name</string>
+    <string name="hint_enter_name">Enter your name</string>
+    <string name="label_email">Email</string>
+    <string name="hint_enter_email">Enter your email</string>
+    <string name="label_password">Password</string>
+    <string name="hint_enter_password">Enter password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER (New User)</string>
+</resources>

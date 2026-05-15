@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#0F0F1A" android:padding="20dp">
+    <!--  Welcome banner – shows user's name from LoginActivity  -->
+    <TextView android:id="@+id/tvWelcome" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Welcome!" android:textSize="20sp" android:textColor="#FFD700" android:textStyle="bold" android:layout_marginBottom="20dp"/>
+    <!--  Power status card  -->
+    <LinearLayout android:id="@+id/cardPower" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal" android:background="#0d2e0d" android:padding="28dp" android:layout_marginBottom="18dp">
+        <TextView android:id="@+id/tvIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⚡" android:textSize="64sp"/>
+        <TextView android:id="@+id/tvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loading..." android:textSize="24sp" android:textColor="#FFFFFF" android:textStyle="bold" android:layout_marginTop="6dp"/>
+        <TextView android:id="@+id/tvFreshness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Connecting to Firebase..." android:textSize="13sp" android:textColor="#888888" android:layout_marginTop="8dp"/>
+        <TextView android:id="@+id/tvReporter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="11sp" android:textColor="#666666" android:layout_marginTop="4dp"/>
+    </LinearLayout>
+    <!--  ON / OFF buttons side by side  -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="12dp">
+        <Button android:id="@+id/btnOn" android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1" android:text="⚡ Power ON" android:backgroundTint="#2ECC71" android:textColor="#003300" android:textStyle="bold" android:layout_marginEnd="6dp"/>
+        <Button android:id="@+id/btnOff" android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1" android:text="✖ Power OFF" android:backgroundTint="#E74C3C" android:textColor="#FFFFFF" android:textStyle="bold" android:layout_marginStart="6dp"/>
+    </LinearLayout>
+    <!--  Pump Timer button  -->
+    <Button android:id="@+id/btnPump" android:layout_width="match_parent" android:layout_height="48dp" android:text="⏱ Open Pump Timer" android:backgroundTint="#1A1A2E" android:textColor="#FFD700"/>
+</LinearLayout>

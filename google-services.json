@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1098639406823",
+    "project_id": "grama-urja-fdeb4",
+    "storage_bucket": "grama-urja-fdeb4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098639406823:android:04549f8b3f01baf0081442",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4_7NsxjrpuobtWoT2NdymIeQ0-ekfaTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
